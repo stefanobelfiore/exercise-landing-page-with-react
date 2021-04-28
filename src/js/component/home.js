@@ -9,7 +9,7 @@ export function Home() {
 	return (
 		<div className="text-center mt-5">
 			<MyNavbar />
-			<div class="cardbox">
+			<div className="cardbox">
 				<MyCard />
 				<MyCard />
 				<MyCard />
