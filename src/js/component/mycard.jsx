@@ -15,7 +15,7 @@ export function MyCard() {
 					Some quick example text to build on the card title and make
 					up the bulk of the card&apos;s content.
 				</Card.Text>
-				<Button variant="danger">Pre-order Now</Button>
+				<Button variant="seodary">Pre-order Now</Button>
 			</Card.Body>
 		</Card>
 	);
