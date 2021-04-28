@@ -1,4 +1,7 @@
 import React from "react";
+import MyJumbotron from "./myjumbotron.jsx";
+//create your first component
+
 import { MyNavbar } from "./mynavbar.jsx";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -9,6 +12,7 @@ export function Home() {
 	return (
 		<div className="text-center mt-5">
 			<MyNavbar />
+			<MyJumbotron />
 			<div className="cardbox">
 				<MyCard />
 				<MyCard />
